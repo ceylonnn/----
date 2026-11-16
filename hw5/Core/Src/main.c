@@ -43,9 +43,10 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-volatile uint32_t begin=0,end=0;
-volatile uint8_t key=0;
-volatile uint32_t last_time=0;
+volatile uint32_t begin = 0,end = 0;
+volatile uint8_t key = 0,key1 = 0,key2 = 0;
+volatile uint32_t duration = 0;
+volatile uint32_t last_time = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -101,39 +102,28 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
     
-
-    if (key)
+    if (key==1)
     {
-      uint8_t event=key;key=0;
-      if (event==2)
+      if (HAL_GetTick()-last_time>=20)
       {
-        uint32_t duration=end-begin;
-        if (duration<1000)
-        {
-          if (HAL_GetTick()-last_time>=20)
-          {
-            last_time=HAL_GetTick();
-            HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_9);
-            HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
-          }
-        }
-      
-          else
-          {
-            for (uint8_t i=0;i<10;i++)
-            {
-              HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_9);
-              HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
-              HAL_Delay(100);
-
-            }
-              HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);
-              HAL_GPIO_WritePin(GPIOA, GPIO_PIN_9, GPIO_PIN_RESET);
-              key=0;
-              
-          } 
+      last_time=HAL_GetTick();
+      HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_9);
       }
     }
+    else if (key==2)
+    {
+      while (1)
+      {
+        HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_9);
+        HAL_Delay(100);
+        if (key1==2 && key2==2)
+        {
+          HAL_GPIO_WritePin(GPIOA, GPIO_PIN_9, GPIO_PIN_RESET);
+          break;
+        }
+      }
+    }
+    key=0;
   }
   /* USER CODE END 3 */
 }
@@ -181,19 +171,14 @@ void SystemClock_Config(void)
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
   
-  if (GPIO_Pin==GPIO_PIN_4)
-  { 
-    if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_4)==GPIO_PIN_RESET)
-    {
-      begin=HAL_GetTick();
-      key=1;
-    } 
-    else
-    {
-      end=HAL_GetTick();
-      key=2;   
-    }
+  if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_4) == GPIO_PIN_RESET){begin=HAL_GetTick();}
+  else{
+    end=HAL_GetTick();
+    duration=end-begin;
+    key=duration>1000?2:1;
   }
+  key2=key1;
+  key1=key;
 }      
 /* USER CODE END 4 */
 
