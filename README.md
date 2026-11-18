@@ -2,5 +2,4 @@
 hw：hal_delay控制500ms频闪；
 hw2：不使用hal_delay的500ms频闪；
 hw3：EXTI控制开关
-
-hw5尚未完成...
+hw5：短按控制开关，长按快闪/熄灭
