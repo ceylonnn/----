@@ -3,4 +3,4 @@
 2hw2：呼吸灯+舵机自转（PSC=719，ARR=199/1999（led/舵机），CCR=duty*（ARR+1），duty即占空比）；
 2hw3：ADC电压测定；
 2hw4：led亮度/呼吸灯切换；
-2hw5：ADC控制电机（未完成）；
+2hw5：ADC控制电机（虽然占空比换算用的是算出来的电压而非原本的ADC值，不过效果是一致的；voltage = adc * 3.3 / 4095 ，duty = voltage / 3.3 ， ccr = duty * arr）。
