@@ -1,5 +1,5 @@
 # ninja log v6
-3	161	8166932968940779	CMakeFiles/hw6.dir/Core/Src/main.c.obj	34b9c02fc8293537
+2	143	8166943124927696	CMakeFiles/hw6.dir/Core/Src/main.c.obj	34b9c02fc8293537
 18	171	8166932969085562	CMakeFiles/hw6.dir/Core/Src/gpio.c.obj	94e9621753b5d406
 32	177	8166932969236687	CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj	156c98c5d068537f
 76	335	8166928616478627	CMakeFiles/hw6.dir/Core/Src/syscalls.c.obj	9bcb0c39e4477d9e
@@ -18,5 +18,5 @@
 274	515	8166928618459335	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj	d0ea534ee72739fb
 291	523	8166928618596963	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj	6a83db2734289679
 308	528	8166928618788775	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj	189664c2444722e3
-177	324	8166932970678454	hw6.elf	e7b24081226641e9
-2	135	8166932976465516	build.ninja	2cf9fdbe0295982c
+143	279	8166943126361918	hw6.elf	e7b24081226641e9
+2	135	8166943131909540	build.ninja	2cf9fdbe0295982c

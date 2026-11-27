@@ -1995,7 +1995,7 @@ LOAD C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtn.o
                 0x08000000                g_pfnVectors
                 0x0800010c                        . = ALIGN (0x4)
 
-.text           0x0800010c     0x1330
+.text           0x0800010c     0x1358
                 0x0800010c                        . = ALIGN (0x4)
  *(.text)
  *(.text*)
@@ -2073,191 +2073,191 @@ LOAD C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtn.o
                 0x08000fee       0x18 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
                 0x08000fee                HAL_SYSTICK_Config
  *fill*         0x08001006        0x2 
- .text.main     0x08001008       0x70 CMakeFiles/hw6.dir/Core/Src/main.c.obj
+ .text.main     0x08001008       0x98 CMakeFiles/hw6.dir/Core/Src/main.c.obj
                 0x08001008                main
  .text.SystemClock_Config
-                0x08001078       0x8a CMakeFiles/hw6.dir/Core/Src/main.c.obj
-                0x08001078                SystemClock_Config
- *fill*         0x08001102        0x2 
+                0x080010a0       0x8a CMakeFiles/hw6.dir/Core/Src/main.c.obj
+                0x080010a0                SystemClock_Config
+ *fill*         0x0800112a        0x2 
  .text.HAL_GPIO_EXTI_Callback
-                0x08001104       0x6c CMakeFiles/hw6.dir/Core/Src/main.c.obj
-                0x08001104                HAL_GPIO_EXTI_Callback
+                0x0800112c       0x6c CMakeFiles/hw6.dir/Core/Src/main.c.obj
+                0x0800112c                HAL_GPIO_EXTI_Callback
  .text.Error_Handler
-                0x08001170        0xc CMakeFiles/hw6.dir/Core/Src/main.c.obj
-                0x08001170                Error_Handler
+                0x08001198        0xc CMakeFiles/hw6.dir/Core/Src/main.c.obj
+                0x08001198                Error_Handler
  .text.MX_GPIO_Init
-                0x0800117c      0x138 CMakeFiles/hw6.dir/Core/Src/gpio.c.obj
-                0x0800117c                MX_GPIO_Init
+                0x080011a4      0x138 CMakeFiles/hw6.dir/Core/Src/gpio.c.obj
+                0x080011a4                MX_GPIO_Init
  .text.NMI_Handler
-                0x080012b4        0x8 CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080012b4                NMI_Handler
+                0x080012dc        0x8 CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080012dc                NMI_Handler
  .text.HardFault_Handler
-                0x080012bc        0x8 CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080012bc                HardFault_Handler
+                0x080012e4        0x8 CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080012e4                HardFault_Handler
  .text.MemManage_Handler
-                0x080012c4        0x8 CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080012c4                MemManage_Handler
+                0x080012ec        0x8 CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080012ec                MemManage_Handler
  .text.BusFault_Handler
-                0x080012cc        0x8 CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080012cc                BusFault_Handler
+                0x080012f4        0x8 CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080012f4                BusFault_Handler
  .text.UsageFault_Handler
-                0x080012d4        0x8 CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080012d4                UsageFault_Handler
+                0x080012fc        0x8 CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080012fc                UsageFault_Handler
  .text.SVC_Handler
-                0x080012dc        0xc CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080012dc                SVC_Handler
+                0x08001304        0xc CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08001304                SVC_Handler
  .text.DebugMon_Handler
-                0x080012e8        0xc CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080012e8                DebugMon_Handler
+                0x08001310        0xc CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08001310                DebugMon_Handler
  .text.PendSV_Handler
-                0x080012f4        0xc CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080012f4                PendSV_Handler
+                0x0800131c        0xc CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
+                0x0800131c                PendSV_Handler
  .text.SysTick_Handler
-                0x08001300        0xc CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08001300                SysTick_Handler
+                0x08001328        0xc CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08001328                SysTick_Handler
  .text.EXTI4_IRQHandler
-                0x0800130c        0xe CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
-                0x0800130c                EXTI4_IRQHandler
- *fill*         0x0800131a        0x2 
+                0x08001334        0xe CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08001334                EXTI4_IRQHandler
+ *fill*         0x08001342        0x2 
  .text.HAL_MspInit
-                0x0800131c       0x64 CMakeFiles/hw6.dir/Core/Src/stm32f1xx_hal_msp.c.obj
-                0x0800131c                HAL_MspInit
+                0x08001344       0x64 CMakeFiles/hw6.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x08001344                HAL_MspInit
  .text.Reset_Handler
-                0x08001380       0x48 CMakeFiles/hw6.dir/startup_stm32f103xb.s.obj
-                0x08001380                Reset_Handler
+                0x080013a8       0x48 CMakeFiles/hw6.dir/startup_stm32f103xb.s.obj
+                0x080013a8                Reset_Handler
  .text.Default_Handler
-                0x080013c8        0x2 CMakeFiles/hw6.dir/startup_stm32f103xb.s.obj
-                0x080013c8                RTC_Alarm_IRQHandler
-                0x080013c8                EXTI2_IRQHandler
-                0x080013c8                TIM1_CC_IRQHandler
-                0x080013c8                PVD_IRQHandler
-                0x080013c8                EXTI3_IRQHandler
-                0x080013c8                EXTI0_IRQHandler
-                0x080013c8                I2C2_EV_IRQHandler
-                0x080013c8                ADC1_2_IRQHandler
-                0x080013c8                SPI1_IRQHandler
-                0x080013c8                TAMPER_IRQHandler
-                0x080013c8                DMA1_Channel4_IRQHandler
-                0x080013c8                USART3_IRQHandler
-                0x080013c8                RTC_IRQHandler
-                0x080013c8                DMA1_Channel7_IRQHandler
-                0x080013c8                CAN1_RX1_IRQHandler
-                0x080013c8                TIM4_IRQHandler
-                0x080013c8                I2C1_EV_IRQHandler
-                0x080013c8                DMA1_Channel6_IRQHandler
-                0x080013c8                TIM3_IRQHandler
-                0x080013c8                RCC_IRQHandler
-                0x080013c8                TIM1_TRG_COM_IRQHandler
-                0x080013c8                DMA1_Channel1_IRQHandler
-                0x080013c8                Default_Handler
-                0x080013c8                EXTI15_10_IRQHandler
-                0x080013c8                EXTI9_5_IRQHandler
-                0x080013c8                SPI2_IRQHandler
-                0x080013c8                DMA1_Channel5_IRQHandler
-                0x080013c8                USB_LP_CAN1_RX0_IRQHandler
-                0x080013c8                USB_HP_CAN1_TX_IRQHandler
-                0x080013c8                DMA1_Channel3_IRQHandler
-                0x080013c8                TIM1_UP_IRQHandler
-                0x080013c8                WWDG_IRQHandler
-                0x080013c8                TIM2_IRQHandler
-                0x080013c8                TIM1_BRK_IRQHandler
-                0x080013c8                EXTI1_IRQHandler
-                0x080013c8                USART2_IRQHandler
-                0x080013c8                I2C2_ER_IRQHandler
-                0x080013c8                DMA1_Channel2_IRQHandler
-                0x080013c8                CAN1_SCE_IRQHandler
-                0x080013c8                FLASH_IRQHandler
-                0x080013c8                USART1_IRQHandler
-                0x080013c8                I2C1_ER_IRQHandler
-                0x080013c8                USBWakeUp_IRQHandler
- .text.memset   0x080013ca       0x10 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
-                0x080013ca                memset
- *fill*         0x080013da        0x2 
+                0x080013f0        0x2 CMakeFiles/hw6.dir/startup_stm32f103xb.s.obj
+                0x080013f0                RTC_Alarm_IRQHandler
+                0x080013f0                EXTI2_IRQHandler
+                0x080013f0                TIM1_CC_IRQHandler
+                0x080013f0                PVD_IRQHandler
+                0x080013f0                EXTI3_IRQHandler
+                0x080013f0                EXTI0_IRQHandler
+                0x080013f0                I2C2_EV_IRQHandler
+                0x080013f0                ADC1_2_IRQHandler
+                0x080013f0                SPI1_IRQHandler
+                0x080013f0                TAMPER_IRQHandler
+                0x080013f0                DMA1_Channel4_IRQHandler
+                0x080013f0                USART3_IRQHandler
+                0x080013f0                RTC_IRQHandler
+                0x080013f0                DMA1_Channel7_IRQHandler
+                0x080013f0                CAN1_RX1_IRQHandler
+                0x080013f0                TIM4_IRQHandler
+                0x080013f0                I2C1_EV_IRQHandler
+                0x080013f0                DMA1_Channel6_IRQHandler
+                0x080013f0                TIM3_IRQHandler
+                0x080013f0                RCC_IRQHandler
+                0x080013f0                TIM1_TRG_COM_IRQHandler
+                0x080013f0                DMA1_Channel1_IRQHandler
+                0x080013f0                Default_Handler
+                0x080013f0                EXTI15_10_IRQHandler
+                0x080013f0                EXTI9_5_IRQHandler
+                0x080013f0                SPI2_IRQHandler
+                0x080013f0                DMA1_Channel5_IRQHandler
+                0x080013f0                USB_LP_CAN1_RX0_IRQHandler
+                0x080013f0                USB_HP_CAN1_TX_IRQHandler
+                0x080013f0                DMA1_Channel3_IRQHandler
+                0x080013f0                TIM1_UP_IRQHandler
+                0x080013f0                WWDG_IRQHandler
+                0x080013f0                TIM2_IRQHandler
+                0x080013f0                TIM1_BRK_IRQHandler
+                0x080013f0                EXTI1_IRQHandler
+                0x080013f0                USART2_IRQHandler
+                0x080013f0                I2C2_ER_IRQHandler
+                0x080013f0                DMA1_Channel2_IRQHandler
+                0x080013f0                CAN1_SCE_IRQHandler
+                0x080013f0                FLASH_IRQHandler
+                0x080013f0                USART1_IRQHandler
+                0x080013f0                I2C1_ER_IRQHandler
+                0x080013f0                USBWakeUp_IRQHandler
+ .text.memset   0x080013f2       0x10 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
+                0x080013f2                memset
+ *fill*         0x08001402        0x2 
  .text.__libc_init_array
-                0x080013dc       0x48 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
-                0x080013dc                __libc_init_array
+                0x08001404       0x48 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
+                0x08001404                __libc_init_array
  *(.glue_7)
- .glue_7        0x08001424        0x0 linker stubs
+ .glue_7        0x0800144c        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08001424        0x0 linker stubs
+ .glue_7t       0x0800144c        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08001424        0x0 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
+ .eh_frame      0x0800144c        0x0 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.init)
- .init          0x08001424        0x4 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crti.o
-                0x08001424                _init
- .init          0x08001428        0x8 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtn.o
+ .init          0x0800144c        0x4 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crti.o
+                0x0800144c                _init
+ .init          0x08001450        0x8 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x08001430        0x4 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crti.o
-                0x08001430                _fini
- .fini          0x08001434        0x8 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtn.o
-                0x0800143c                        . = ALIGN (0x4)
-                0x0800143c                        _etext = .
+ .fini          0x08001458        0x4 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crti.o
+                0x08001458                _fini
+ .fini          0x0800145c        0x8 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtn.o
+                0x08001464                        . = ALIGN (0x4)
+                0x08001464                        _etext = .
 
-.vfp11_veneer   0x0800143c        0x0
- .vfp11_veneer  0x0800143c        0x0 linker stubs
+.vfp11_veneer   0x08001464        0x0
+ .vfp11_veneer  0x08001464        0x0 linker stubs
 
-.v4_bx          0x0800143c        0x0
- .v4_bx         0x0800143c        0x0 linker stubs
+.v4_bx          0x08001464        0x0
+ .v4_bx         0x08001464        0x0 linker stubs
 
-.iplt           0x0800143c        0x0
- .iplt          0x0800143c        0x0 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
+.iplt           0x08001464        0x0
+ .iplt          0x08001464        0x0 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x0800143c       0x24
-                0x0800143c                        . = ALIGN (0x4)
+.rodata         0x08001464       0x24
+                0x08001464                        . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.AHBPrescTable
-                0x0800143c       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
-                0x0800143c                AHBPrescTable
+                0x08001464       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
+                0x08001464                AHBPrescTable
  .rodata.aPLLMULFactorTable.1
-                0x0800144c       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08001474       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .rodata.aPredivFactorTable.0
-                0x0800145c        0x2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08001460                        . = ALIGN (0x4)
- *fill*         0x0800145e        0x2 
+                0x08001484        0x2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08001488                        . = ALIGN (0x4)
+ *fill*         0x08001486        0x2 
 
-.ARM.extab      0x08001460        0x0
-                0x08001460                        . = ALIGN (0x4)
+.ARM.extab      0x08001488        0x0
+                0x08001488                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08001460                        . = ALIGN (0x4)
+                0x08001488                        . = ALIGN (0x4)
 
-.ARM            0x08001460        0x0
-                0x08001460                        . = ALIGN (0x4)
-                0x08001460                        __exidx_start = .
+.ARM            0x08001488        0x0
+                0x08001488                        . = ALIGN (0x4)
+                0x08001488                        __exidx_start = .
  *(.ARM.exidx*)
-                0x08001460                        __exidx_end = .
-                0x08001460                        . = ALIGN (0x4)
+                0x08001488                        __exidx_end = .
+                0x08001488                        . = ALIGN (0x4)
 
-.preinit_array  0x08001460        0x0
-                0x08001460                        . = ALIGN (0x4)
-                0x08001460                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08001488        0x0
+                0x08001488                        . = ALIGN (0x4)
+                0x08001488                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08001460                        PROVIDE (__preinit_array_end = .)
-                0x08001460                        . = ALIGN (0x4)
+                0x08001488                        PROVIDE (__preinit_array_end = .)
+                0x08001488                        . = ALIGN (0x4)
 
-.init_array     0x08001460        0x4
-                0x08001460                        . = ALIGN (0x4)
-                0x08001460                        PROVIDE (__init_array_start = .)
+.init_array     0x08001488        0x4
+                0x08001488                        . = ALIGN (0x4)
+                0x08001488                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x08001460        0x4 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x08001464                        PROVIDE (__init_array_end = .)
-                0x08001464                        . = ALIGN (0x4)
+ .init_array    0x08001488        0x4 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x0800148c                        PROVIDE (__init_array_end = .)
+                0x0800148c                        . = ALIGN (0x4)
 
-.fini_array     0x08001464        0x4
-                0x08001464                        . = ALIGN (0x4)
+.fini_array     0x0800148c        0x4
+                0x0800148c                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08001464        0x4 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
+ .fini_array    0x0800148c        0x4 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x08001468                        . = ALIGN (0x4)
-                0x08001468                        _sidata = LOADADDR (.data)
+                0x08001490                        . = ALIGN (0x4)
+                0x08001490                        _sidata = LOADADDR (.data)
 
-.rel.dyn        0x08001468        0x0
- .rel.iplt      0x08001468        0x0 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x08001490        0x0
+ .rel.iplt      0x08001490        0x0 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.data           0x20000000       0x10 load address 0x08001468
+.data           0x20000000       0x10 load address 0x08001490
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -2280,16 +2280,16 @@ LOAD C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtn.o
                 0x20000010                        . = ALIGN (0x4)
 
 .tm_clone_table
-                0x20000010        0x0 load address 0x08001478
+                0x20000010        0x0 load address 0x080014a0
  .tm_clone_table
                 0x20000010        0x0 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
  .tm_clone_table
                 0x20000010        0x0 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtend.o
 
-.igot.plt       0x20000010        0x0 load address 0x08001478
+.igot.plt       0x20000010        0x0 load address 0x080014a0
  .igot.plt      0x20000010        0x0 C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.tdata          0x20000010        0x0 load address 0x08001478
+.tdata          0x20000010        0x0 load address 0x080014a0
  *(.tdata .tdata.* .gnu.linkonce.td.*)
                 0x20000010                        . = ALIGN (0x4)
                 0x20000010                        _edata = .
@@ -2306,7 +2306,7 @@ LOAD C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtn.o
                 [!provide]                        PROVIDE (__data_source_end = __tdata_source_end)
                 [!provide]                        PROVIDE (__data_source_size = (__data_source_end - __data_source))
 
-.tbss           0x20000010        0x0 load address 0x08001478
+.tbss           0x20000010        0x0 load address 0x080014a0
                 0x20000010                        _sbss = .
                 0x20000010                        __bss_start__ = _sbss
  *(.tbss .tbss.*)
@@ -2323,7 +2323,7 @@ LOAD C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtn.o
                 [!provide]                        PROVIDE (__arm32_tls_tcb_offset = MAX (0x8, __tls_align))
                 [!provide]                        PROVIDE (__arm64_tls_tcb_offset = MAX (0x10, __tls_align))
 
-.bss            0x20000010       0x34 load address 0x08001478
+.bss            0x20000010       0x34 load address 0x080014a0
  *(.bss)
  *(.bss*)
  .bss.completed.1
@@ -2353,7 +2353,7 @@ LOAD C:/STM32/gcc/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtn.o
                 [!provide]                        PROVIDE (__bss_size = (__bss_end - __bss_start))
 
 ._user_heap_stack
-                0x20000044      0x604 load address 0x08001478
+                0x20000044      0x604 load address 0x080014a0
                 0x20000048                        . = ALIGN (0x8)
  *fill*         0x20000044        0x4 
                 [!provide]                        PROVIDE (end = .)
@@ -2465,7 +2465,7 @@ LOAD linker stubs
                 0x000003d0       0x28 CMakeFiles/hw6.dir/startup_stm32f103xb.s.obj
 
 .debug_rnglists
-                0x00000000      0x2d2
+                0x00000000      0x2d3
  .debug_rnglists
                 0x00000000       0x1a cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_rnglists
@@ -2477,15 +2477,15 @@ LOAD linker stubs
  .debug_rnglists
                 0x00000168       0xbb cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .debug_rnglists
-                0x00000223       0x26 CMakeFiles/hw6.dir/Core/Src/main.c.obj
+                0x00000223       0x27 CMakeFiles/hw6.dir/Core/Src/main.c.obj
  .debug_rnglists
-                0x00000249       0x14 CMakeFiles/hw6.dir/Core/Src/gpio.c.obj
+                0x0000024a       0x14 CMakeFiles/hw6.dir/Core/Src/gpio.c.obj
  .debug_rnglists
-                0x0000025d       0x49 CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
+                0x0000025e       0x49 CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
  .debug_rnglists
-                0x000002a6       0x13 CMakeFiles/hw6.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x000002a7       0x13 CMakeFiles/hw6.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_rnglists
-                0x000002b9       0x19 CMakeFiles/hw6.dir/startup_stm32f103xb.s.obj
+                0x000002ba       0x19 CMakeFiles/hw6.dir/startup_stm32f103xb.s.obj
 
 .debug_macro    0x00000000    0x15afe
  .debug_macro   0x00000000      0x184 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
@@ -2532,17 +2532,17 @@ LOAD linker stubs
  .debug_macro   0x000157d8      0x198 CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
  .debug_macro   0x00015970      0x18e CMakeFiles/hw6.dir/Core/Src/stm32f1xx_hal_msp.c.obj
 
-.debug_line     0x00000000     0x4256
+.debug_line     0x00000000     0x4261
  .debug_line    0x00000000      0x597 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_line    0x00000597      0x7c8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .debug_line    0x00000d5f      0xc81 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .debug_line    0x000019e0      0x825 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_line    0x00002205      0x992 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_line    0x00002b97      0x5ff CMakeFiles/hw6.dir/Core/Src/main.c.obj
- .debug_line    0x00003196      0x550 CMakeFiles/hw6.dir/Core/Src/gpio.c.obj
- .debug_line    0x000036e6      0x5df CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_line    0x00003cc5      0x519 CMakeFiles/hw6.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_line    0x000041de       0x78 CMakeFiles/hw6.dir/startup_stm32f103xb.s.obj
+ .debug_line    0x00002b97      0x60a CMakeFiles/hw6.dir/Core/Src/main.c.obj
+ .debug_line    0x000031a1      0x550 CMakeFiles/hw6.dir/Core/Src/gpio.c.obj
+ .debug_line    0x000036f1      0x5df CMakeFiles/hw6.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_line    0x00003cd0      0x519 CMakeFiles/hw6.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_line    0x000041e9       0x78 CMakeFiles/hw6.dir/startup_stm32f103xb.s.obj
 
 .debug_str      0x00000000    0x7bede
  .debug_str     0x00000000    0x7bede cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj

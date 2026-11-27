@@ -106,6 +106,10 @@ int main(void)
       {
       last_time=HAL_GetTick();
       HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_9);
+      begin1=0;
+      end1=0;
+      begin2=0;
+      end2=0;
       }
     }
     
