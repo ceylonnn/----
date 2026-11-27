@@ -1,6 +1,0 @@
-C:/Users/a/Desktop/学习文件/电控项目/GPIO/build/Debug/CMakeFiles/GPIO.dir
-C:/Users/a/Desktop/学习文件/电控项目/GPIO/build/Debug/CMakeFiles/edit_cache.dir
-C:/Users/a/Desktop/学习文件/电控项目/GPIO/build/Debug/CMakeFiles/rebuild_cache.dir
-C:/Users/a/Desktop/学习文件/电控项目/GPIO/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
-C:/Users/a/Desktop/学习文件/电控项目/GPIO/build/Debug/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
-C:/Users/a/Desktop/学习文件/电控项目/GPIO/build/Debug/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir
