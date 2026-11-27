@@ -45,7 +45,10 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+volatile uint16_t adc_value = 0;
+volatile double voltage = 0.0;
+volatile uint32_t last_time = 0;
+volatile float duty = 0.0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -91,7 +94,8 @@ int main(void)
   MX_ADC1_Init();
   MX_TIM1_Init();
   /* USER CODE BEGIN 2 */
-
+  HAL_ADCEx_Calibration_Start(&hadc1);
+  HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -101,6 +105,19 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+    HAL_ADC_Start(&hadc1);
+    HAL_ADC_PollForConversion(&hadc1, 50);
+    adc_value = HAL_ADC_GetValue(&hadc1);
+    voltage = adc_value * 3.3 / 4095.0; 
+    if (HAL_GetTick() - last_time >= 20)
+    {
+      duty = voltage / 3.3;
+      last_time = HAL_GetTick();
+    }
+
+    uint16_t arr=__HAL_TIM_GET_AUTORELOAD(&htim1);
+    uint16_t ccr=(uint16_t)(duty*arr);
+    __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1,ccr);
   }
   /* USER CODE END 3 */
 }
